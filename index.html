@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Debt Finance</title>
+  <meta name="description" content="My Debt Finance is an internal, privately hosted budgeting tool.">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      max-width: 42rem;
+      margin: 3rem auto;
+      padding: 0 1.25rem;
+      line-height: 1.6;
+    }
+    h1 { margin-bottom: 0.25rem; }
+    .tagline { margin-top: 0; opacity: 0.75; }
+    h2 { margin-top: 2rem; font-size: 1.15rem; }
+    footer { margin-top: 3rem; font-size: 0.875rem; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <h1>My Debt Finance</h1>
+  <p class="tagline">An internal budgeting tool for personal use.</p>
+
+  <h2>About</h2>
+  <p>
+    My Debt Finance is a private, self-hosted budgeting application. It runs on a
+    private network and is not available to the public. There is no sign-up, and it
+    is not offered as a service to anyone else.
+  </p>
+
+  <h2>How bank data is used</h2>
+  <p>
+    The app uses <a href="https://plaid.com">Plaid</a> to connect to the owner's own
+    bank accounts. It reads account balances and transactions to:
+  </p>
+  <ul>
+    <li>Track spending and categorize transactions</li>
+    <li>Monitor debt balances and payoff progress</li>
+    <li>Show upcoming bills and due dates</li>
+  </ul>
+
+  <h2>Privacy and security</h2>
+  <ul>
+    <li>Data is used only by the account owner for budgeting.</li>
+    <li>Data is never sold, shared, or used for advertising.</li>
+    <li>The database is encrypted at rest, and the app is reachable only over an
+        encrypted private network.</li>
+    <li>Connections to Plaid use TLS 1.2 or higher.</li>
+    <li>Bank connections can be removed at any time through
+        <a href="https://my.plaid.com">Plaid Portal</a>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions about data privacy or security: <a href="mailto:stopanddev@gmail.com">stopanddev@gmail.com</a></p>
+
+  <footer>&copy; 2026 My Debt Finance</footer>
+</body>
+</html>
